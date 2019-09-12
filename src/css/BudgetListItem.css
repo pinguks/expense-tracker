@@ -1,0 +1,40 @@
+.Income-list-item,
+.Expenses-list-item {
+  position: relative;
+  color: #555;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8em 0;
+  border-top: 1px solid #f7f7f7;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.Income-list-item:nth-child(even),
+.Expenses-list-item:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.Income-list-item:last-child,
+.Expenses-list-item:last-child {
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.Income-list-item-price {
+  color: #28b9b5;
+  margin-right: 2.2em;
+}
+
+.Expenses-list-item-price {
+  color: #ff5049;
+  margin-right: 2.2em;
+}
+
+i {
+  font-size: 1.8rem;
+  position: absolute;
+  right: 9px;
+  top: 3px;
+  color: red;
+  cursor: pointer;
+}

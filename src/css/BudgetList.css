@@ -1,0 +1,53 @@
+.List {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  flex: 1;
+}
+
+.Income,
+.Expenses {
+  flex: 1;
+}
+
+.Income-title,
+.Expenses-title {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.Income {
+  margin-bottom: 1em;
+}
+
+.Income-title {
+  color: #28b9b5;
+}
+
+.Expenses-title {
+  color: #ff5049;
+}
+
+.Income-list,
+.Expenses-list {
+  list-style: none;
+}
+
+@media (min-width: 1000px) {
+  .List {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .Income {
+    margin: 0;
+    margin-right: 1em;
+  }
+
+  .Expenses {
+    margin-left: 1em;
+  }
+}

@@ -1,0 +1,52 @@
+.View {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.View-container {
+  text-align: center;
+  margin: 1.5em;
+}
+
+.View-total {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0.5em 0;
+}
+
+.View-income,
+.View-expenses {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  padding: 1em;
+  background: yellow;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.View-income {
+  background-color: #28b9b5;
+  margin-bottom: 0.5em;
+}
+
+.View-expenses {
+  background-color: #ff5049;
+}
+
+.View-income-total,
+.View-expenses-total {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
